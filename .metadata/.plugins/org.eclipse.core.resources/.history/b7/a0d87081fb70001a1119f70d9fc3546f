@@ -1,0 +1,5 @@
+package com.curso.springboot.web.app.models;
+
+public class Usuario {
+
+}
