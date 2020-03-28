@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html>
 <head>
 <meta charset="UTF-8" />
-<title th:text="${titulo}"> </title>
+<title>Hola Spring</title>
 </head>
 <body>
 <h1>Hola Spring!!</h1>

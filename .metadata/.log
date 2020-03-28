@@ -1047,3 +1047,57 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:13.836
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:13.872
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@56e737b2[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=1004)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:13.934
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:40.970
+!MESSAGE Boot LS startup time from start to initialized: 26986ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.098
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SKEnwNUhisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.123
+!MESSAGE subscribing to classpath changes: sts4.classpath.SKEnwNUh isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.146
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.165
+!MESSAGE subsribers = {sts4.classpath.SKEnwNUh=Send Classpath Notifications(1449)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.198
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.216
+!MESSAGE project spring-boot-web ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.234
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.249
+!MESSAGE Preparing classpath changed notification spring-boot-web
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.263
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SKEnwNUh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.277
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.355
+!MESSAGE classpath=76 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.401
+!MESSAGE buffering callback sts4.classpath.SKEnwNUh spring-boot-web false 76
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.422
+!MESSAGE executing callback sts4.classpath.SKEnwNUh 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-28 13:19:41.512
+!MESSAGE executing callback sts4.classpath.SKEnwNUh SUCCESS [done]
