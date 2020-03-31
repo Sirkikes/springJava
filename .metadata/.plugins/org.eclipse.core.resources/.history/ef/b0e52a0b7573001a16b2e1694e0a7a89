@@ -13,34 +13,37 @@ import com.curso.springboot.web.app.models.Usuario;
 @Controller
 @RequestMapping("/app")
 public class IndexController {
-
-	@GetMapping({ "/index", "/", "", "/home" })
+	
+	@GetMapping({"/index", "/", "", "/home"})
 	public String index(Model model) {
 		model.addAttribute("titulo", "Hola Spring Framework!!");
 		return "index";
 	}
-
+	
 	@RequestMapping("/perfil")
 	public String perfil(Model model) {
 		Usuario usuario = new Usuario();
 		usuario.setNombre("Kike");
 		usuario.setApellido("navarro");
 		usuario.setEmail("kike@correo.com");
-
+		
 		model.addAttribute("usuario", usuario);
 		model.addAttribute("titulo", "Perfil del Usuario: ".concat(usuario.getNombre()));
 		return "perfil";
-
+		
 	}
-
-	@RequestMapping("/listar")
+	
+	@RequestMapping("/perfil")
 	public String listar(Model model) {
-
+		
 		List<Usuario> usuarios = new ArrayList<>();
 		model.addAttribute("titulo", "Listado de Usuarios: ");
 		model.addAttribute("usuarios", usuarios);
 		return "listar";
-
+	
+	
 	}
-
+	
+	}
+	
 }

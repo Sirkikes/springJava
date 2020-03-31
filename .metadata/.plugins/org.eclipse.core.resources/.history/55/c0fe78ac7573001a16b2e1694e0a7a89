@@ -33,7 +33,7 @@ public class IndexController {
 
 	}
 
-	@RequestMapping("/listar")
+	@RequestMapping("/perfil")
 	public String listar(Model model) {
 
 		List<Usuario> usuarios = new ArrayList<>();
